@@ -235,7 +235,7 @@ let newStr = "";
     
 for(let i=0; i < str.length; i++)
 {
-    if (str[i] === "a" || str[i] === "i" || str[i] === "e" || str[i] ===  "u" || str[i] === "o" )
+    if (str[i].toLowerCase() === "a" || str[i].toLowerCase() === "i" || str[i].toLowerCase() === "e" || str[i].toLowerCase() ===  "u" || str[i].toLowerCase() === "o" )
     {
         newStr += str[i];
     } 
